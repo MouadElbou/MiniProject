@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="We are Food"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="645dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="128dp"
+        android:text="Welcome to our delivery app! We are a team of dedicated professionals who are committed to making the delivery process easy and convenient for our customers.
+Our app allows users to place orders from their favorite local restaurants and have them delivered straight to their doorstep. We work with a network of reliable and efficient drivers to ensure that your food is delivered quickly and safely.
+We understand that people lead busy lives and don't always have time to cook or go out to eat. That's where we come in. With just a few taps on your smartphone, you can have a delicious meal delivered right to your door.
+Thank you for choosing our app for all of your delivery needs. We look forward to serving you in the future."
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+</RelativeLayout>

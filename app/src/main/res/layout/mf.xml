@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mf">
+
+
+    <EditText
+        android:id="@+id/RestoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter course Name"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/AdressResto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Duration"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/EmailResto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Tracks"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/NumeroResto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Course Description"
+        android:minHeight="48dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Btnsup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Modifier" />
+    </LinearLayout>
+
+
+</LinearLayout>
